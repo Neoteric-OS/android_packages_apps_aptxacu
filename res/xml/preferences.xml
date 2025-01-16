@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListPreference
+        android:defaultValue="@string/default_value"
+        android:dialogTitle="@string/aptx_and_aptx_hd_priority_dialog_title"
+        android:entries="@array/aptx_and_aptx_hd_priority_labels"
+        android:entryValues="@array/aptx_and_aptx_hd_priority_values"
+        android:key="aptx_and_aptx_hd_priority"
+        android:title="@string/aptx_and_aptx_hd_priority_title"
+        app:useSimpleSummaryProvider="true" />
+    <SwitchPreferenceCompat
+        android:title="@string/aptx_adaptive_96khz_sample_rate_dialog_title"
+        android:key="aptx_adaptive_96khz_sample_rate"
+        android:summary="@string/aptx_adaptive_96khz_sample_rate_title"
+        android:defaultValue="false" />
+    <PreferenceCategory
+        android:key="pref_cat_codec_audio_profile"
+        android:title="@string/pref_cat_codec_audio_profile">
+        <ListPreference
+            android:defaultValue="@string/audio_profile_override_auto_adjust_value"
+            android:dialogTitle="@string/audio_profile_override_dialog_title"
+            android:entries="@array/audio_profile_override_labels"
+            android:entryValues="@array/audio_profile_override_values"
+            android:key="audio_profile_override"
+            android:title="@string/audio_profile_preference_title"
+            app:useSimpleSummaryProvider="true" />
+        <Preference
+            android:enabled="false"
+            android:iconSpaceReserved="false"
+            android:key="pref_audio_profile_preference"
+            android:shouldDisableView="true"
+            android:summary="@string/audio_profile_preference_summary"
+            android:title="@string/audio_profile_preference_title" />
+    </PreferenceCategory>
+</PreferenceScreen>

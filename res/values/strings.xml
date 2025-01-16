@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="acu_label">Qualcomm® aptX™ preferences</string>
+    <string name="app_name">acu</string>
+    <string name="aptx_adaptive_96khz_sample_rate_dialog_title">Qualcomm® aptX™ Adaptive</string>
+    <string name="aptx_adaptive_96khz_sample_rate_title">Enable Qualcomm® aptX™ Adaptive 96 kHz for high resolution audio when available</string>
+    <string name="aptx_and_aptx_hd_priority_dialog_title">Set Qualcomm® aptX™ or Qualcomm® aptX™ HD as a preference</string>
+    <string name="aptx_and_aptx_hd_priority_title">Set Qualcomm® aptX™ or Qualcomm® aptX™ HD preference when available</string>
+    <string name="aptx_hd_label">Qualcomm® aptX™ HD</string>
+    <string name="aptx_hd_value">APTX_HD</string>
+    <string name="aptx_label">Qualcomm® aptX™</string>
+    <string name="aptx_value">APTX</string>
+    <string name="audio_profile_override_auto_adjust_label">Auto-adjust</string>
+    <string name="audio_profile_override_auto_adjust_value">AUTO_ADJUST</string>
+    <string name="audio_profile_override_dialog_title">Audio profile</string>
+    <string name="audio_profile_override_gaming_mode_label">Gaming Mode</string>
+    <string name="audio_profile_override_gaming_mode_value">GAMING_MODE</string>
+    <string name="audio_profile_override_high_quality_label">High Quality</string>
+    <string name="audio_profile_override_high_quality_value">HIGH_QUALITY</string>
+    <string name="audio_profile_preference_summary">Configure audio profile preference for installed applications. i.e. Auto-adjust, High Quality, Gaming Mode</string>
+    <string name="audio_profile_preference_title">Application audio profile</string>
+    <string name="default_label">Default</string>
+    <string name="default_value">DEFAULT</string>
+    <string name="pref_cat_codec_audio_profile">Codec audio profile preferences</string>
+    <string name="spinner_auto_adjust_label">Auto-adjust</string>
+    <string name="spinner_auto_adjust_value">AUTO_ADJUST</string>
+    <string name="spinner_gaming_mode_label">Gaming Mode</string>
+    <string name="spinner_gaming_mode_value">GAMING_MODE</string>
+    <string name="spinner_high_quality_label">High Quality</string>
+    <string name="spinner_high_quality_value">HIGH_QUALITY</string>
+</resources>
