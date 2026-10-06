@@ -12,11 +12,12 @@ import androidx.annotation.Nullable;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceManager;
 import androidx.preference.SwitchPreferenceCompat;
 
-public class aptxacuSettingsFragment extends PreferenceFragmentCompat
+import com.android.settingslib.widget.SettingsBasePreferenceFragment;
+
+public class aptxacuSettingsFragment extends SettingsBasePreferenceFragment
         implements SharedPreferences.OnSharedPreferenceChangeListener, aptxacuApplication.OnStateChangedListener {
 
     private static final String TAG = "aptxacuSettingsFragment";
